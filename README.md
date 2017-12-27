@@ -1,5 +1,5 @@
 # -WeChatPublicNumber
-This is my individual study or view about thew we-chat public number develops.
-so I am very like it
-Hi ,friends!you would like to come to my hometown for a week this summer,we'd very happy to have you! I am looking forward to hearing from
-you as soon.
+1.we use the ssm framework to develops.
+2.com.wechat.carte path is carte model.
+3.resources contain all config files.
+Ok,let us develop the project!
