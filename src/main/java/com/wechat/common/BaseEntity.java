@@ -1,7 +1,5 @@
 package com.wechat.common;
 
-import java.util.Date;
-
 /**
  * 实体类的基类
  *
@@ -9,8 +7,9 @@ import java.util.Date;
  * @createtime 2017-12-27 下午 3:32
  **/
 public class BaseEntity {
-    private String id;
-    private Date createTime;
+    private String id;//id主键
+    private String createDate;//创建日期
+    private String remarks;//备注
 
     public String getId() {
         return id;
@@ -20,11 +19,11 @@ public class BaseEntity {
         this.id = id;
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public String getCreateDate() {
+        return createDate;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setCreateDate(String createDate) {
+        this.createDate = createDate;
     }
 }
